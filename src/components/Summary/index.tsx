@@ -1,7 +1,7 @@
 import { ArrowCircleUp, ArrowCircleDown, CurrencyDollar } from 'phosphor-react'
 import { SummaryContainer, SummaryCard } from './styles'
 import { priceFormatter } from '../../utils/formatter'
-import { useSummary } from '../hooks/useSummary'
+import { useSummary } from '../../hooks/useSummary'
 
 export const Summary = () => {
   const { summary } = useSummary()
